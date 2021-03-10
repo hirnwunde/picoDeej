@@ -22,3 +22,5 @@ Limitations:
     - only three analog inputs
     - aditional USB-UART (Pico's USB is blocked by MicroPython's REPL)
 
+Gerber files added but PCBs are stil in production.
+When they arrive I will update this repo with new housing.
