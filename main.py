@@ -2,6 +2,7 @@ from machine import Pin, ADC, UART
 from utime import sleep
 from scalenum import scale_number
 
+# different from the normal micropython UART needs no init()
 uart = UART(0, 9600, parity=None, stop=1, bits=8)
 
 adc0=ADC(Pin(26))
