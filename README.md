@@ -7,7 +7,7 @@ The picoDeej is a device to control volume of different programs for Linux and W
 Unlike the original I don't use an Arduino but a RaspberryPi Pico to feed deej with data.
 
 
-Assambling is quite straightforward.
+Assembling is quite straightforward.
 Just note that the potentiometers have to be connected to AGND (Pin 33 on the Pico) and not to the 9 other GND pins. Took me a while to figure out why I don't get consistent analog readings.
 
 Hardware needed:
